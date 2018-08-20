@@ -6,6 +6,7 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.SimpleAccountRealm;
 import org.apache.shiro.subject.Subject;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -13,12 +14,16 @@ import org.junit.Test;
  */
 public class AuthenticationTest {
 
+    //1.这里先简单的使用SimpleAccountReaml来模拟数据
+    SimpleAccountRealm simpleAccountRealm = new SimpleAccountRealm();
+
+    @Before
+    public void addUser(){
+        simpleAccountRealm.addAccount("Schuyler", "123456", "admin");
+    }
+
     @Test
     public void testAuthenticaition() {
-
-        //1.这里先简单的使用SimpleAccountReaml来模拟数据
-        SimpleAccountRealm simpleAccountRealm = new SimpleAccountRealm();
-        simpleAccountRealm.addAccount("Schuyler", "123456", "admin");
 
         //2.构建SecurityManager环境
         DefaultSecurityManager defaultSecurityManager = new DefaultSecurityManager();

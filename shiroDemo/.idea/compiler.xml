@@ -9,5 +9,9 @@
         <module name="shiro-test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shiro" target="1.5" />
+      <module name="shiro-test" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
