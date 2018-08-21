@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95a2af33-5591-47cc-8b15-f0d0627fc469" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shiro-test/shiro-test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/IniRealmTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shiro-test/src/test/resources/user.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shiro.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/JdbcRealmTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/shiro-test/src/test/resources/datasource.properties" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/AuthenticationTest.java" afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/AuthenticationTest.java" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/test-classes/com/shiro/test/AuthenticationTest.class" afterPath="$PROJECT_DIR$/shiro-test/target/test-classes/com/shiro/test/AuthenticationTest.class" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/pom.xml" afterPath="$PROJECT_DIR$/shiro-test/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/shiro-test.iml" afterPath="$PROJECT_DIR$/shiro-test/shiro-test.iml" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/test-classes/com/shiro/test/IniRealmTest.class" afterPath="$PROJECT_DIR$/shiro-test/target/test-classes/com/shiro/test/IniRealmTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,54 +60,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/AuthenticationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="45" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IniRealmTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/IniRealmTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/resources/user.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,6 +68,16 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Driver</find>
+      <find>druid.url</find>
+      <find>permissions</find>
+      <find>getPermissions</find>
+      <find>isPermitted</find>
+      <find>permissionsQuery</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -143,10 +91,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/shiro-test/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/AuthenticationTest.java" />
         <option value="$PROJECT_DIR$/shiro-test/src/test/resources/user.ini" />
         <option value="$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/IniRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro-test/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-test/src/test/resources/datasource.properties" />
+        <option value="$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/JdbcRealmTest.java" />
       </list>
     </option>
   </component>
@@ -162,6 +112,15 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="shiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiro-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiro-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -219,6 +178,44 @@
               <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiroDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiroDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiroDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiroDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -240,6 +237,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CaiShunfeng\Desktop\Shiro\ShiroDemo\shiroDemo\shiro-test\src\test" />
+      <recent name="C:\Users\CaiShunfeng\Desktop\Shiro\ShiroDemo\shiroDemo\shiro-test\src" />
+      <recent name="C:\Users\CaiShunfeng\Desktop\Shiro\ShiroDemo\shiroDemo\shiro-test" />
+      <recent name="C:\Users\CaiShunfeng\Desktop\Shiro\ShiroDemo\shiroDemo\shiro-test\resources" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -252,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IniRealmTest.testAuthentication">
+  <component name="RunManager" selected="JUnit.JdbcRealmTest.testAuthentication">
     <configuration name="AuthenticationTest.testAuthenticaition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -303,14 +308,41 @@
       <envs />
       <patterns />
     </configuration>
-    <list size="2">
+    <configuration name="JdbcRealmTest.testAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shiro.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="shiro-test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shiro.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shiro.test.JdbcRealmTest" />
+      <option name="METHOD_NAME" value="testAuthentication" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AuthenticationTest.testAuthenticaition" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.IniRealmTest.testAuthentication" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcRealmTest.testAuthentication" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IniRealmTest.testAuthentication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AuthenticationTest.testAuthenticaition" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcRealmTest.testAuthentication" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IniRealmTest.testAuthentication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AuthenticationTest.testAuthenticaition" />
       </list>
     </recent_temporary>
   </component>
@@ -328,41 +360,44 @@
       <option name="presentableId" value="Default" />
       <updated>1534725366044</updated>
       <workItem from="1534725370727" duration="1383000" />
-      <workItem from="1534746615068" duration="1415000" />
+      <workItem from="1534746615068" duration="8905000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthenticationTest_testAuthenticaition - 2018.08.20 at 14h 31m 36s.xml">
-      <configuration name="AuthenticationTest.testAuthenticaition" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 16h 53m 11s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testAuthenticaition - 2018.08.20 at 14h 37m 09s.xml">
-      <configuration name="AuthenticationTest.testAuthenticaition" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 16h 55m 23s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testAuthenticaition - 2018.08.20 at 14h 37m 18s.xml">
-      <configuration name="AuthenticationTest.testAuthenticaition" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 17h 04m 03s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testAuthenticaition - 2018.08.20 at 14h 37m 29s.xml">
-      <configuration name="AuthenticationTest.testAuthenticaition" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 17h 06m 22s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IniRealmTest_testAuthentication - 2018.08.20 at 14h 51m 55s.xml">
-      <configuration name="IniRealmTest.testAuthentication" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 17h 06m 38s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IniRealmTest_testAuthentication - 2018.08.20 at 14h 52m 11s.xml">
-      <configuration name="IniRealmTest.testAuthentication" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 17h 18m 59s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IniRealmTest_testAuthentication - 2018.08.20 at 14h 52m 27s.xml">
-      <configuration name="IniRealmTest.testAuthentication" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 17h 19m 47s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IniRealmTest_testAuthentication - 2018.08.20 at 14h 52m 46s.xml">
-      <configuration name="IniRealmTest.testAuthentication" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 17h 20m 11s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IniRealmTest_testAuthentication - 2018.08.20 at 14h 52m 59s.xml">
-      <configuration name="IniRealmTest.testAuthentication" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 17h 21m 35s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.20 at 17h 25m 58s.xml">
+      <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2798000" />
+    <option name="totallyTimeSpent" value="10288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -374,19 +409,19 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16536313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23294243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.68603355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -412,8 +447,22 @@
             <option name="EMULATED" value="true" />
           </properties>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/JdbcRealmTest.java</url>
+          <line>35</line>
+          <properties class="com.shiro.test.JdbcRealmTest" method="testAuthentication">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.class</url>
+          <line>234</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -452,18 +501,270 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://J:/JDK-8/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="138" column="21" lean-forward="false" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="21" />
+          <folding>
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5030#5031#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="199" column="52" lean-forward="false" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="52" />
+          <folding>
+            <marker date="1528185230974" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1528185230974" expanded="false" signature="146:3787" ph="..." />
+            <marker date="1528185230974" expanded="false" signature="6595:6606" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="6618:6624" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="6671:7931" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="7965:7976" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="7998:8004" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="8053:8064" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="8091:8097" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="8156:17266" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="17316:17327" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="17365:17371" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="17449:17520" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="17568:17579" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="17615:17621" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="17699:17770" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="17804:17815" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="17837:17843" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="17892:17903" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="17930:17936" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="17975:17986" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="18013:18019" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="18059:18070" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="18098:18104" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="18166:18344" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="18379:18390" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="18415:18421" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="18469:19016" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="19046:20705" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="20738:20749" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="20772:20778" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="20809:20820" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="20839:20845" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="20889:21162" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="21220:21231" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="21270:21276" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="21337:22497" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="22543:24102" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="24164:25927" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="25972:36881" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="36921:37247" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="37298:38011" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="38062:38425" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="38471:39247" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="39310:40004" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="40048:40470" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="40512:41347" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="41400:42193" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="42241:43198" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="43243:44201" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="44249:45411" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="45452:47790" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="47861:47917" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="48006:48301" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="48373:48429" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="48529:48621" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="48716:52034" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="52097:52416" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="52508:59202" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="59331:60298" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="60422:62156" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="62245:66365" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="66405:66416" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="66446:66452" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="66512:66876" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="66902:69306" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="69340:69843" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="69421:69491" ph="run() → {" />
+            <marker date="1528185230974" expanded="false" signature="69805:69824" ph="}" />
+            <marker date="1528185230974" expanded="true" signature="69879:70266" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="69959:70029" ph="run() → {" />
+            <marker date="1528185230974" expanded="false" signature="70228:70247" ph="}" />
+            <marker date="1528185230974" expanded="false" signature="70306:70317" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="70345:70351" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="70425:70977" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="71058:72298" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="72397:74178" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="74226:74237" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="74257:74263" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="74311:74322" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="74342:74348" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="74440:75046" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="75080:75091" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="75115:75121" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="75156:75167" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="75192:75198" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="75234:75423" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="75456:75467" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="75490:75496" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="75536:75547" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="75589:75595" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="75630:75818" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="75852:76039" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="76077:76088" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="76162:76168" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="76203:76214" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="76239:76245" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="76279:76466" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="76495:76727" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="76788:80756" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="80799:80810" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="80843:80849" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="80924:81478" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="81534:82506" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="82541:85776" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="85837:86310" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="86358:86627" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="86671:86827" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="86871:87027" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="87063:87320" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="87346:87357" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="87383:87389" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="87432:87443" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="87482:87488" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="87551:91811" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="91849:92063" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="92103:92114" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="92144:92150" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="92196:92395" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="92440:92638" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="92680:92691" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="92723:92729" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="92770:92781" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="92822:92828" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="92868:92879" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="92909:92915" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="92952:92963" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="92997:93003" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="93035:93046" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="93069:93075" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="93112:93123" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="93195:93201" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="93228:93417" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="93450:93461" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="93484:93490" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="93521:96418" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="96484:98803" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="98858:99555" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="99587:99598" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="99632:99638" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="99689:99700" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="99727:99733" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="99795:99846" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="99898:99999" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="100054:103493" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="103540:109010" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="109056:109067" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="109117:109123" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="109170:109181" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="109231:109237" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="109290:109301" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="109349:109355" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="109405:109557" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="109624:110002" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="110029:110040" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="110057:110063" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="110113:110509" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="110551:110954" ph="{...}" />
+            <marker date="1528185230974" expanded="false" signature="110997:111008" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="111039:111045" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="111112:111123" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="111168:111174" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="111248:111324" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="111368:111417" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="111472:113776" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="113822:113966" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="113996:114225" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="114258:114755" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="114845:115171" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="115228:115235" ph="{}" />
+            <marker date="1528185230974" expanded="true" signature="115286:115293" ph="{}" />
+            <marker date="1528185230974" expanded="true" signature="115328:115335" ph="{}" />
+            <marker date="1528185230974" expanded="false" signature="115366:115377" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="115396:115402" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="115451:116069" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="115496:115566" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="115594:116063" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="116120:116417" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="116151:116162" ph="{}" />
+            <marker date="1528185230974" expanded="true" signature="116190:116411" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="116475:117406" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="116529:116599" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="116627:117400" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="117463:123072" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="117516:117586" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="117614:123066" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="123132:130193" ph="{...}" />
+            <marker date="1528185230974" expanded="true" signature="123251:123262" ph="{}" />
+            <marker date="1528185230974" expanded="false" signature="123317:123332" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="123357:123367" ph=" }" />
+            <marker date="1528185230974" expanded="false" signature="123394:123409" ph=" { " />
+            <marker date="1528185230974" expanded="false" signature="123428:123438" ph=" }" />
+            <marker date="1528185230974" expanded="true" signature="123475:130187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="132">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/resources/user.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/AuthenticationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="432">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
@@ -472,21 +773,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/resources/user.ini">
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/IniRealmTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="269">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/util/CollectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#1024#1025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/IniRealmTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/mgt/AuthorizingSecurityManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="155">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authz/ModularRealmAuthorizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+          <folding>
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authz/permission/WildcardPermissionResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authz/permission/WildcardPermission.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="238" column="62" lean-forward="true" selection-start-line="238" selection-start-column="62" selection-end-line="238" selection-end-column="62" />
+          <folding>
+            <element signature="e#2302#2303#0" expanded="true" />
+            <element signature="e#2362#2363#0" expanded="true" />
+            <marker date="1528855973214" expanded="true" signature="1932:1977" ph="select passw... users" />
+            <marker date="1528855973214" expanded="true" signature="2019:2070" ph="select role_... user_roles" />
+            <marker date="1528855973214" expanded="true" signature="2114:2174" ph="select permi... roles_permissions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="237" column="27" lean-forward="true" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/shiro/test/JdbcRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/resources/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
