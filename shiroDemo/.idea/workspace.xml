@@ -126,7 +126,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -230,12 +230,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534726878723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534813201871" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -259,95 +259,71 @@
   </component>
   <component name="RunManager" selected="JUnit.JdbcRealmTest.testAuthentication">
     <configuration name="AuthenticationTest.testAuthenticaition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <module name="shiro-test" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shiro.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="shiro-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shiro.test" />
       <option name="MAIN_CLASS_NAME" value="com.shiro.test.AuthenticationTest" />
       <option name="METHOD_NAME" value="testAuthenticaition" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="IniRealmTest.testAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="shiro-test" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shiro.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="shiro-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shiro.test" />
       <option name="MAIN_CLASS_NAME" value="com.shiro.test.IniRealmTest" />
       <option name="METHOD_NAME" value="testAuthentication" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="JdbcRealmTest.testAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="shiro-test" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shiro.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="shiro-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shiro.test" />
       <option name="MAIN_CLASS_NAME" value="com.shiro.test.JdbcRealmTest" />
       <option name="METHOD_NAME" value="testAuthentication" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AuthenticationTest.testAuthenticaition" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.IniRealmTest.testAuthentication" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcRealmTest.testAuthentication" />
+    <list>
+      <item itemvalue="JUnit.AuthenticationTest.testAuthenticaition" />
+      <item itemvalue="JUnit.IniRealmTest.testAuthentication" />
+      <item itemvalue="JUnit.JdbcRealmTest.testAuthentication" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcRealmTest.testAuthentication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IniRealmTest.testAuthentication" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AuthenticationTest.testAuthenticaition" />
+      <list>
+        <item itemvalue="JUnit.JdbcRealmTest.testAuthentication" />
+        <item itemvalue="JUnit.IniRealmTest.testAuthentication" />
+        <item itemvalue="JUnit.AuthenticationTest.testAuthenticaition" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
