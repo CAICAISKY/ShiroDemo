@@ -3,6 +3,7 @@ package com.shiro.test;
 import com.shiro.realm.CustomRealm;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
 import org.apache.shiro.subject.Subject;
@@ -20,6 +21,12 @@ public class CustomRealmTest {
         DefaultSecurityManager defaultSecurityManager = new DefaultSecurityManager();
         defaultSecurityManager.setRealm(customRealm);
         SecurityUtils.setSecurityManager(defaultSecurityManager);
+
+        //加密处理
+        HashedCredentialsMatcher hashedCredentialsMatcher = new HashedCredentialsMatcher();
+        hashedCredentialsMatcher.setHashAlgorithmName("md5");
+        hashedCredentialsMatcher.setHashIterations(1);
+        customRealm.setCredentialsMatcher(hashedCredentialsMatcher);
 
         //3.用户提供认证请求
         UsernamePasswordToken token = new UsernamePasswordToken("Schuyler", "123456");
