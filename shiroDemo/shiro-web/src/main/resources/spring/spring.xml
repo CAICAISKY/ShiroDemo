@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--导入其他spring容器配置文件-->
+    <import resource="spring-dao.xml"/>
+    <!--配置扫描路径-->
+    <!--请注意，这里应该与springMVC分开扫描，让其扫描除了@Controller注解之外的bean-->
+    <context:component-scan base-package="com.shiro">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <!--设置登陆页面URL-->
+        <property name="loginUrl" value="login.html"/>
+        <!--设置登陆失败页面URL-->
+        <property name="unauthorizedUrl" value="403.html"/>
+        <!--设置过滤规则-->
+        <property name="filterChainDefinitions">
+            <!--注意，shiro的过滤规则是从上到下的，过程中只要匹配到就放行，因此一般会将/*放置在最后-->
+            <value>
+                /login.html = anon
+                /subLogin = anon
+                /* = authc
+            </value>
+        </property>
+    </bean>
+
+    <!--注入SecurityManager-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="customRealm"/>
+    </bean>
+
+    <bean id="customRealm" class="com.shiro.realm.CustomRealm">
+        <property name="credentialsMatcher" ref="credentialsMatcher"/>
+    </bean>
+
+    <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+        <property name="hashAlgorithmName" value="md5"></property>
+        <property name="hashIterations" value="1"></property>
+    </bean>
+</beans>
