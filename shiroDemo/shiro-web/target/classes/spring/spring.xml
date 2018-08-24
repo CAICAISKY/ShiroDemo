@@ -2,7 +2,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
     <!--导入其他spring容器配置文件-->
     <import resource="spring-dao.xml"/>
@@ -24,10 +25,19 @@
             <value>
                 /login.html = anon
                 /subLogin = anon
-                /* = authc
+                /oneRolePass = oneRolePass[admin, user]
+                /logout = logout
+                /** = authc
             </value>
         </property>
+        <property name="filters">
+            <util:map>
+                <entry key="oneRolePass" value-ref="oneRolePassFilter"/>
+            </util:map>
+        </property>
     </bean>
+    <!--创建自定义filter-->
+    <bean id="oneRolePassFilter" class="com.shiro.filter.OneRolePassFilter"/>
 
     <!--创建SecurityManager-->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">

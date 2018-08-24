@@ -4,7 +4,6 @@ import com.shiro.entity.User;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.apache.shiro.subject.Subject;
@@ -27,9 +26,6 @@ public class UserController {
         UsernamePasswordToken token = new UsernamePasswordToken(user.getUserName(), user.getPassword());
         try {
             subject.login(token);
-            //这里只是为了测试一下所写的dao层有没有问题，所以简单地把校验方法写在这里
-            subject.checkRoles("admin");
-            subject.checkPermission("user:delete");
         } catch (AuthenticationException e) {
             return e.getMessage();
         }
@@ -50,5 +46,19 @@ public class UserController {
     @ResponseBody
     public String hasPermissions() {
         return "有user:delete权限";
+    }
+
+    @RequestMapping(value = "/oneRolePass", method = RequestMethod.GET,
+            produces = "application/json;charset=utf8")
+    @ResponseBody
+    public String oneRolePass() {
+        return "有admin或user角色";
+    }
+
+    @RequestMapping(value = "/logout", method = RequestMethod.GET,
+            produces = "application/json;charset=utf8")
+    @ResponseBody
+    public String logout() {
+        return "退出完成";
     }
 }

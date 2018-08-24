@@ -108,7 +108,7 @@ public class CustomRealm extends AuthorizingRealm {
         while (iterator.hasNext()) {
             String role = iterator.next();
             List<String> permissionList = userDao.getPermissionsByroleName(role);
-            if (permissionList.size() != 0) {
+            if (permissionList != null && permissionList.size() != 0) {
                 for(String permission : permissionList) {
                     permissions.add(permission);
                 }
