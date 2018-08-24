@@ -25,7 +25,6 @@ public class CustomRealm extends AuthorizingRealm {
         //定义reaml名
         super.setName("customRealm");
     }
-
     /**
      * 这里是授权的方法
      */
@@ -64,11 +63,12 @@ public class CustomRealm extends AuthorizingRealm {
         //2.从数据库中通过userName去获取password的
         User user = getPasswordByUserName(userName);
 
-        //3.封装、返回结果
         if (user == null) {
             return null;
         }
-        SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(user.getUserName(), user.getPassword(),"customRealm");
+
+        //3.封装、返回结果
+        SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(user.getUserName(), user.getPassword(), getName());
         simpleAuthenticationInfo.setCredentialsSalt(ByteSource.Util.bytes(user.getPasswordSalt()));
         return simpleAuthenticationInfo;
     }

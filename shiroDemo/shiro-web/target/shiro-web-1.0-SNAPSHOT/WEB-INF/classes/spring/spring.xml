@@ -29,13 +29,13 @@
         </property>
     </bean>
 
-    <!--注入SecurityManager-->
+    <!--创建SecurityManager-->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="customRealm"/>
     </bean>
 
     <bean id="customRealm" class="com.shiro.realm.CustomRealm">
-        <property name="credentialsMatcher" ref="credentialsMatcher"></property>
+        <property name="credentialsMatcher" ref="credentialsMatcher"/>
     </bean>
 
     <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
