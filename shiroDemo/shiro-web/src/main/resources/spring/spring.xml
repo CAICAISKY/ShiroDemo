@@ -47,6 +47,8 @@
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="customRealm"/>
         <property name="sessionManager" ref="sessionManager"/>
+        <property name="cacheManager" ref="cacheManager"></property>
+        <property name="rememberMeManager" ref="rememberMeManager"></property>
     </bean>
 
     <!--创建自定realm-->
@@ -61,10 +63,26 @@
     </bean>
 
     <!--创建session管理器-->
-    <bean id="sessionManager" class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager">
+    <bean id="sessionManager" class="com.shiro.session.CustomSessionManager">
         <property name="sessionDAO" ref="redisSessionDao"/>
     </bean>
 
     <!--创建自定义SessionDao-->
     <bean id="redisSessionDao" class="com.shiro.session.RedisSessionDao"/>
+
+    <!--创建自定义的CacheManager-->
+    <bean id="cacheManager" class="com.shiro.cache.RedisCacheManager"/>
+
+    <!--创建RemenberMe管理器-->
+    <bean id="rememberMeManager" class="org.apache.shiro.web.mgt.CookieRememberMeManager">
+        <property name="cookie" ref="cookie"></property>
+    </bean>
+
+    <!--创建Shiro提供的cookie对象-->
+    <bean id="cookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+        <!--cookie名字-->
+        <constructor-arg value="rememberMe"/>
+        <!--cookie存活时间,以秒为单位-->
+        <property name="maxAge" value="600000"></property>
+    </bean>
 </beans>

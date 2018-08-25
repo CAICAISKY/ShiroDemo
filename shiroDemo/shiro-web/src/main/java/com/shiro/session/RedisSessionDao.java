@@ -38,10 +38,8 @@ public class RedisSessionDao extends AbstractSessionDAO {
      */
     private void saveSession(Session session) {
         if (session != null && session.getId() != null) {
-            //生成session序列化对象
-            Serializable sessionId = generateSessionId(session);
-            //获取键值
-            byte[] key = getKey(sessionId.toString());
+            //获取键值对
+            byte[] key = getKey(session.getId().toString());
             byte[] value = SerializationUtils.serialize(session);
             //为连接对象Jedis设置session的键值
             jedisUtil.set(key, value);

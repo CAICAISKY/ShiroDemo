@@ -4,9 +4,11 @@ import com.shiro.realm.CustomRealm;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
 import org.apache.shiro.subject.Subject;
+import org.apache.shiro.util.ByteSource;
 import org.junit.Test;
 
 public class CustomRealmTest {
@@ -41,5 +43,12 @@ public class CustomRealmTest {
 
         //6.权限校验
         subject.checkPermission("user:delete");
+    }
+
+    public static void main(String[] args) {
+        Md5Hash md5Hash = new Md5Hash("123456","Schuyler");
+        md5Hash.setIterations(1);
+        System.out.println(md5Hash.toHex());
+
     }
 }
