@@ -7,6 +7,8 @@
 
     <!--导入其他spring容器配置文件-->
     <import resource="spring-dao.xml"/>
+    <import resource="spring-redis.xml"/>
+
     <!--配置扫描路径-->
     <!--请注意，这里应该与springMVC分开扫描，让其扫描除了@Controller注解之外的bean-->
     <context:component-scan base-package="com.shiro">
@@ -44,14 +46,25 @@
     <!--创建SecurityManager-->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="customRealm"/>
+        <property name="sessionManager" ref="sessionManager"/>
     </bean>
 
+    <!--创建自定realm-->
     <bean id="customRealm" class="com.shiro.realm.CustomRealm">
         <property name="credentialsMatcher" ref="credentialsMatcher"/>
     </bean>
 
+    <!--创建加密对象-->
     <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
-        <property name="hashAlgorithmName" value="md5"></property>
-        <property name="hashIterations" value="1"></property>
+        <property name="hashAlgorithmName" value="md5"/>
+        <property name="hashIterations" value="1"/>
     </bean>
+
+    <!--创建session管理器-->
+    <bean id="sessionManager" class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager">
+        <property name="sessionDAO" ref="redisSessionDao"/>
+    </bean>
+
+    <!--创建自定义SessionDao-->
+    <bean id="redisSessionDao" class="com.shiro.session.RedisSessionDao"/>
 </beans>
